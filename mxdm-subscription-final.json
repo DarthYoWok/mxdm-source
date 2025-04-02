@@ -1,0 +1,15 @@
+{
+  "exportedMediaSourceDataList": {
+    "MX动漫 JSON": {
+      "type": "json",
+      "searchable": true,
+      "searchUrl": "https://www.mxdm9.cc/api.php/provide/vod/?ac=list&wd={{keyword}}",
+      "resultPath": "$.list[*]",
+      "titlePath": "$.vod_name",
+      "linkPath": "$.vod_id",
+      "coverPath": "$.vod_pic",
+      "descPath": "$.vod_remarks",
+      "linkTemplate": "https://www.mxdm9.cc/index.php/vod/detail/id/{{link}}.html"
+    }
+  }
+}
